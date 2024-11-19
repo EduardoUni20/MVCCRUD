@@ -1,0 +1,98 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - ProyectoUMvc</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/MVCENTITYCRUD.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/styleBase.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css">
+
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container-fluid">
+                <a class="navbar-brand navbar-brand--logo" asp-area="" asp-controller="Producto" asp-action="Lista"> 
+                    <img src="~/image/iconChef.svg" alt="Logo" class="nav__image" />
+                    <p class="nav__text nav__text--logo">
+                        <span class="nav__span-carrito">Carrito</span>
+                        <span class="nav__span-comida">Comida</span>
+                    </p>
+                
+                
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Rol" asp-action="Lista">Roles</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Empleado" asp-action="Lista">Empleados</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Categoria" asp-action="Lista">Categorias</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Producto" asp-action="Lista">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Cliente" asp-action="Lista">Clientes</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container footer__content">
+            <section class="footer__section footer__section--contact">
+                <h2 class="footer__title">Contáctanos</h2>
+                <ul class="footer__list list">
+                    <li class="footer__item">Tel: (123) 456-7890</li>
+                    <li class="footer__item">Email: CarritoCompra@gmail.com</li>
+                    <li class="footer__item">Dirección: Calle 40 A Sur #44-34</li>
+                </ul>
+            </section>
+
+            <section class="footer__section footer__section--social">
+                <h2 class="footer__title">Síguenos</h2>
+                <ul class="footer__list footer__list--flex list">
+                    <li class="footer__item">
+                        <a href="#" class="link facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#" class="link instagram"><i class="fa-brands fa-instagram"></i></a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#" class="link twitter"><i class="fa-brands fa-twitter"></i></a>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="footer__section footer__section--legal">
+                <p class="footer__text">&copy; 2024 CarritoCompra.</p>
+                <a href="#" class="footer__link link">Política de privacidad</a>
+            </section>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="https://kit.fontawesome.com/81581fb069.js"
+            crossorigin="anonymous"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

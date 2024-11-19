@@ -1,0 +1,64 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+
+@model List<MVCENTITYCRUD.Models.Cliente>;
+
+<div class="row">
+    <div class="col-sm-8 offset-sm-2 container-hidden">
+        <h2>Lista clientes</h2>
+        <a asp-controller="Cliente" asp-action="Nuevo" class="btn btn-success mb-3">Nuevo</a>
+
+        <table class="table table-bordered ">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Nombre del cliente</th>
+                    <th>Cedula</th>
+                    <th>Correo</th>
+                    <th>Telefono</th>
+                    <th></th>
+                </tr>
+            <tbody>
+                    @foreach (var item in Model)
+                    {
+
+                    <tr>
+                        <td>@item.IdCliente</td>
+                        <td>@item.NombreCliente</td>
+                        <td>@item.Cedula</td>
+                        <td>@item.Correo</td>
+                        <td>@item.Telefono</td>
+
+                        <td>
+                            <a asp-controller="Cliente"
+                               asp-action="Editar"
+                               asp-route-id="@item.IdCliente"
+                               class="btn btn-primary">Editar</a>
+
+                            <a asp-controller="Cliente"
+                               asp-action="Eliminar"
+                               asp-route-id="@item.IdCliente"
+                               onclick="return confirmar()"
+                               class="btn btn-danger">Eliminar</a>
+                        </td>
+                    </tr>
+
+
+                    }
+            </tbody>
+            </thead>
+        </table>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        function confirmar() {
+            return confirm("Esta seguro de eliminar el cliente?")
+        }
+    </script>
+}

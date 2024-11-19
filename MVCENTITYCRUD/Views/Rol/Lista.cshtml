@@ -1,0 +1,58 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+
+@model List<MVCENTITYCRUD.Models.Rol>;
+
+<div class="row">
+    <div class="col-sm-8 offset-sm-2 container-hidden">
+        <h2>Lista roles</h2>
+        <a asp-controller="Rol" asp-action="Nuevo" class="btn btn-success mb-3">Nuevo</a>
+
+        <table class="table table-bordered ">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Rol</th>
+                    <th></th>
+                </tr>
+            <tbody>
+                    @foreach (var item in Model)
+                    {
+
+                    <tr>
+                        <td>@item.IdRol</td>
+                        <td>@item.NombreRol</td>
+
+                        <td>
+                            <a asp-controller="Rol"
+                               asp-action="Editar"
+                               asp-route-id="@item.IdRol"
+                               class="btn btn-primary">Editar</a>
+
+                            <a asp-controller="Rol"
+                               asp-action="Eliminar"
+                               asp-route-id="@item.IdRol"
+                               onclick="return confirmar()"
+                               class="btn btn-danger">Eliminar</a>
+                        </td>
+                    </tr>
+
+
+                    }
+            </tbody>
+            </thead>
+        </table>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        function confirmar() {
+            return confirm("Esta seguro de eliminar el rol?")
+        }
+    </script>
+}

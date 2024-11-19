@@ -1,0 +1,107 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = MVCENTITYCRUD
+build_property.RootNamespace = MVCENTITYCRUD
+build_property.ProjectDir = C:\Users\eduar\Desktop\MVCENTITYCRUD\MVCENTITYCRUD\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\eduar\Desktop\MVCENTITYCRUD\MVCENTITYCRUD
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/eduar/Desktop/MVCENTITYCRUD/MVCENTITYCRUD/Views/Categoria/Editar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhXEVkaXRhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/eduar/Desktop/MVCENTITYCRUD/MVCENTITYCRUD/Views/Categoria/Lista.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhXExpc3RhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/eduar/Desktop/MVCENTITYCRUD/MVCENTITYCRUD/Views/Categoria/Nuevo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhXE51ZXZvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/eduar/Desktop/MVCENTITYCRUD/MVCENTITYCRUD/Views/Cliente/Editar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZVxFZGl0YXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/eduar/Desktop/MVCENTITYCRUD/MVCENTITYCRUD/Views/Cliente/Lista.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZVxMaXN0YS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/eduar/Desktop/MVCENTITYCRUD/MVCENTITYCRUD/Views/Cliente/Nuevo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZVxOdWV2by5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/eduar/Desktop/MVCENTITYCRUD/MVCENTITYCRUD/Views/Empleado/Editar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbGVhZG9cRWRpdGFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/eduar/Desktop/MVCENTITYCRUD/MVCENTITYCRUD/Views/Empleado/Lista.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbGVhZG9cTGlzdGEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/eduar/Desktop/MVCENTITYCRUD/MVCENTITYCRUD/Views/Empleado/Nuevo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbGVhZG9cTnVldm8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/eduar/Desktop/MVCENTITYCRUD/MVCENTITYCRUD/Views/Producto/Editar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9cRWRpdGFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/eduar/Desktop/MVCENTITYCRUD/MVCENTITYCRUD/Views/Producto/Lista.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9cTGlzdGEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/eduar/Desktop/MVCENTITYCRUD/MVCENTITYCRUD/Views/Producto/Nuevo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9cTnVldm8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/eduar/Desktop/MVCENTITYCRUD/MVCENTITYCRUD/Views/Rol/Editar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sXEVkaXRhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/eduar/Desktop/MVCENTITYCRUD/MVCENTITYCRUD/Views/Rol/Lista.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sXExpc3RhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/eduar/Desktop/MVCENTITYCRUD/MVCENTITYCRUD/Views/Rol/Nuevo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sXE51ZXZvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/eduar/Desktop/MVCENTITYCRUD/MVCENTITYCRUD/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/eduar/Desktop/MVCENTITYCRUD/MVCENTITYCRUD/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/eduar/Desktop/MVCENTITYCRUD/MVCENTITYCRUD/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/eduar/Desktop/MVCENTITYCRUD/MVCENTITYCRUD/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/eduar/Desktop/MVCENTITYCRUD/MVCENTITYCRUD/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-zdfyeif5s3
